@@ -6,14 +6,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <DefaultSeo
-        title="YouTube Thumbnail Grabber view and Download : Grab All Youtube Thumbnails Size"
-        description="Download youtube thumbnail image and Grab youtube video thumbnails images easy way get Thumbnail Image and save youtube thumbnail images with our free online thumbnail downloader tool "
+        title="Youtube Thumbnail Download 4k -  Save yt thumbnail"
+        description="Download youtube thumbnail image and Grab any youtube video thumbnails images easy way get Thumbnail Image and save youtube short video thumbnail with our free online thumbnail downloader tool"
         canonical="https://youtube-thumbnail-viewer.com"
         openGraph={{
           url: "https://youtube-thumbnail-viewer.com",
-          title: "YouTube Thumbnail Grabber view and Download : Grab All Youtube Thumbnails Size",
-          description: "Download youtube thumbnail image and Grab youtube video thumbnails images easy way get Thumbnail Image and save youtube thumbnail images with our free online thumbnail downloader tool",
-          site_name: "YouTube Thumbnail Grabber view and Download : Grab All Youtube Thumbnails Size",
+          title: "Youtube Thumbnail Download 4k -  Save yt thumbnail",
+          description: "Download youtube thumbnail image and Grab any youtube video thumbnails images easy way get Thumbnail Image and save youtube short video thumbnail with our free online thumbnail downloader tool",
+          site_name: "Youtube Thumbnail Downloader",
         }}
       />
       <Component {...pageProps} />

@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-  <a href="/"><h1 style="text-align: left;">Youtube Thumbnails Grabber</h1></a>
-  
-  <div>
-    Pricavy Policy
-    <h2>Privacy Policy for Youtube Thumbnails Grabber</h2>
+const Privacy = () => {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      {<div>
+    
+    <h2>Privacy Policy for Youtube Thumbnails Downloader</h2>
 
     <p>
-      At Youtube thumbnail grabber, accessible from <a href="https://youtube-thumbnail-viewer.com/">https://youtube-thumbnail-viewer.com/</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Youtube thumbnail grabber and how we use it.
+      At Youtube thumbnail grabber, accessible from <a href="https://youtube-thumbnail-viewer.com/">https://youtube-thumbnail-viewer.com/</a>  one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Youtube thumbnail grabber and how we use it.
     </p>
 
     <p>
       If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
-    </p>
-s
-    <p>
+
       This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Youtube thumbnail grabber. This policy is not applicable to any information collected offline or via channels other than this website.
     </p>
 
@@ -74,7 +68,9 @@ s
         <h3>Children’s Information</h3>
      <p> Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. </p>
     <p> Youtube thumbnail grabber does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records. </p>
-  </div>
+  </div>}
+    </div>
+  );
+};
 
-</body>
-</html>
+export default Privacy;
